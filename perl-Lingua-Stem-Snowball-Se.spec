@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Lingua
-%define	pnam	Snowball-Swedish
+%define		pdir	Lingua
+%define		pnam	Snowball-Swedish
 Summary:	Lingua::Stem::Snowball::Se - Porter's stemming algorithm for Sweedish
 Summary(pl):	Lingua::Stem::Snowball::Se - algorytm Portera okre¶laj±cy rdzenie s³ów dla jêzyka szwedzkiego
 Name:		perl-Lingua-Stem-Snowball-Se
