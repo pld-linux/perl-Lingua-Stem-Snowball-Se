@@ -9,12 +9,12 @@ Summary:	Lingua::Stem::Snowball::Se - Porter's stemming algorithm for Sweedish
 Summary(pl):	Lingua::Stem::Snowball::Se - algorytm Portera okre¶laj±cy rdzenie s³ów dla jêzyka szwedzkiego
 Name:		perl-Lingua-Stem-Snowball-Se
 Version:	1.01
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	59c1b9f82422e27846e2e50db2f8a9a7
-BuildRequires:	perl >= 5.8
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
