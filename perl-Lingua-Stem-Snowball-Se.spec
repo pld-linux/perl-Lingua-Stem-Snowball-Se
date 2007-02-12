@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	Snowball-Swedish
 Summary:	Lingua::Stem::Snowball::Se - Porter's stemming algorithm for Sweedish
-Summary(pl):	Lingua::Stem::Snowball::Se - algorytm Portera okre¶laj±cy rdzenie s³ów dla jêzyka szwedzkiego
+Summary(pl.UTF-8):   Lingua::Stem::Snowball::Se - algorytm Portera okreÅ›lajÄ…cy rdzenie sÅ‚Ã³w dla jÄ™zyka szwedzkiego
 Name:		perl-Lingua-Stem-Snowball-Se
 Version:	1.01
 Release:	3
@@ -24,10 +24,10 @@ The stem function takes a scalar as a parameter and stems the word
 according to Martin Porter's Swedish stemming algorithm, which can be
 found at the Snowball website: http://snowball.tartarus.org/.
 
-%description -l pl
-Funkcja okre¶laj±ca rdzenie s³ów pobiera skalarny parametr i korzysta
-z algorytmu dla jêzyka szwedzkiego autorstwa Martina Portera.
-Algorytm ten mo¿na znale¼æ na stronie Snowballa:
+%description -l pl.UTF-8
+Funkcja okreÅ›lajÄ…ca rdzenie sÅ‚Ã³w pobiera skalarny parametr i korzysta
+z algorytmu dla jÄ™zyka szwedzkiego autorstwa Martina Portera.
+Algorytm ten moÅ¼na znaleÅºÄ‡ na stronie Snowballa:
 http://snowball.tartarus.org/.
 
 %prep
