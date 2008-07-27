@@ -9,7 +9,7 @@ Summary:	Lingua::Stem::Snowball::Se - Porter's stemming algorithm for Sweedish
 Summary(pl.UTF-8):	Lingua::Stem::Snowball::Se - algorytm Portera określający rdzenie słów dla języka szwedzkiego
 Name:		perl-Lingua-Stem-Snowball-Se
 Version:	1.01
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
