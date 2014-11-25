@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Lingua
 %define		pnam	Snowball-Swedish
+%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::Stem::Snowball::Se - Porter's stemming algorithm for Sweedish
 Summary(pl.UTF-8):	Lingua::Stem::Snowball::Se - algorytm Portera określający rdzenie słów dla języka szwedzkiego
 Name:		perl-Lingua-Stem-Snowball-Se
@@ -14,6 +14,7 @@ License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	e2ed0f5c2a9fc7e500c61553c4c1e9c9
+URL:		http://search.cpan.org/dist/Lingua-Snowball-Swedish/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
