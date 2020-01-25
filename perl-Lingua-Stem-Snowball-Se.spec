@@ -4,7 +4,6 @@
 
 %define		pdir	Lingua
 %define		pnam	Snowball-Swedish
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::Stem::Snowball::Se - Porter's stemming algorithm for Sweedish
 Summary(pl.UTF-8):	Lingua::Stem::Snowball::Se - algorytm Portera określający rdzenie słów dla języka szwedzkiego
 Name:		perl-Lingua-Stem-Snowball-Se
